@@ -1,0 +1,27 @@
+%!TEX TS-program = xelatex
+\documentclass[11pt,a4paper]{awesome-cv}
+
+\geometry{left=1.4cm, top=1.2cm, right=1.4cm, bottom=1.8cm}
+\colorlet{awesome}{awesome-red}
+\setbool{acvSectionColorHighlight}{true}
+
+% Personalizzare questi dati. Il nome rilevato è anche in generated/metadata.json.
+\name{Nome}{Cognome}
+\position{Ricercatore}
+\address{Città, Paese}
+\email{nome@example.org}
+\orcid{0000-0000-0000-0000}
+
+\begin{document}
+\makecvheader[C]
+
+\input{generated/employments.tex}
+\input{generated/educations.tex}
+\input{generated/qualifications.tex}
+\input{generated/invited-positions.tex}
+\input{generated/distinctions.tex}
+\input{generated/memberships.tex}
+\input{generated/editorial-services.tex}
+\input{generated/services.tex}
+
+\end{document}

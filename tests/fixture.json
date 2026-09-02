@@ -1,0 +1,19 @@
+{
+  "person": {"name": {"given-names": {"value": "Ada"}, "family-name": {"value": "Lovelace"}}},
+  "activities-summary": {
+    "employments": {"affiliation-group": [{"summaries": [{"employment-summary": {
+      "role-title": "Researcher & Developer", "department-name": "R&D_1",
+      "start-date": {"year": {"value": "2020"}}, "end-date": null,
+      "organization": {"name": "Example Institute", "address": {"city": "Roma", "country": "IT"}}
+    }}]}]},
+    "educations": {"affiliation-group": []},
+    "qualifications": {"affiliation-group": []},
+    "invited-positions": {"affiliation-group": []},
+    "distinctions": {"affiliation-group": []},
+    "memberships": {"affiliation-group": []},
+    "services": {"affiliation-group": [{"summaries": [{"service-summary": {
+      "role-title": "Associate Editor", "start-date": {"year": {"value": "2022"}},
+      "organization": {"name": "Journal of Examples", "address": {"country": "GB"}}
+    }}]}]}
+  }
+}
